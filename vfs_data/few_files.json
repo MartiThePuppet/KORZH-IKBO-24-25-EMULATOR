@@ -1,0 +1,10 @@
+{
+  "name": "few-vfs",
+  "root": {
+    "type": "dir",
+    "children": {
+      "readme.txt": { "type": "file", "content": "hello", "mode": "644" },
+      "notes.md": { "type": "file", "content": "# notes", "mode": "644" }
+    }
+  }
+}
