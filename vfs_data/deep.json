@@ -1,0 +1,22 @@
+{
+  "name": "deep-vfs",
+  "root": {
+    "type": "dir",
+    "children": {
+      "readme.txt": { "type": "file", "content": "root readme", "mode": "644" },
+      "docs": {
+        "type": "dir",
+        "children": {
+          "guide.md": { "type": "file", "content": "guide", "mode": "644" },
+          "api": {
+            "type": "dir",
+            "children": {
+              "v1.md": { "type": "file", "content": "api v1", "mode": "644" },
+              "bin.dat": { "type": "file", "content_base64": "AAECAwQ=", "mode": "600" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
