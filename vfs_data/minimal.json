@@ -1,0 +1,4 @@
+{
+  "name": "minimal-vfs",
+  "root": { "type": "dir", "children": {} }
+}
